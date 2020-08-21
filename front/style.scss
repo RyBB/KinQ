@@ -1,0 +1,93 @@
+body {
+	color: #333;
+	margin: 0;
+}
+.header-contents {
+  .top {
+    margin: 0;
+    height: 50px;
+    background-color: rgb(255, 204, 0);
+  }
+  .logo {
+    padding: 0.5em 0 0 1em;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  .menu {
+    height: 40px;
+    background-color: #4b4b4b;
+    .icon {
+      margin: 0 10px;
+    }
+  }
+  .image {
+    height: 50px;
+    background-color: #9b5252
+  }
+  .title {
+    padding: 13px 0 0 30px;
+    font-size: 1.3em;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif
+  }
+}
+.main-contents {
+  background-color: #D4D7D7;
+  height: 80vh;
+  padding: 15px;
+  text-align: center;
+  .widget {
+    background-color: #fff;
+    height: 75vh;
+    h1 {
+      margin: 0;
+      padding: 5vh 0;
+      font-size: 2em;
+    }
+  }
+  .buttons {
+    margin: auto;
+    button {
+      height: 15vh;
+      width: 30vw;
+      border-radius: 3%;
+      margin: 2vw;
+      color: #fff;
+      font-size: 1em;
+    }
+    tr:nth-child(1) {
+      :nth-child(1) {
+        button {
+          background-color: #42A5F5;
+        }
+      }
+      :nth-child(2) {
+        button {
+          background-color: #9CCC65;
+        }
+      }
+    }
+    tr:nth-child(2) {
+      :nth-child(1) {
+        button {
+          background-color: #FFA726;
+        }
+      }
+      :nth-child(2) {
+        button {
+          background-color: #EF5350;
+        }
+      }
+    }
+  }
+}
+.cursor {
+  cursor: pointer;
+}
+i {
+  font-size: 1.3em;
+  margin: 0 5px;
+  padding: 10px 0 0 0;
+  color: gray;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>KinQ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/7540df9e35.js" crossorigin="anonymous"></script>
+  <script src="https://js.cybozu.com/sweetalert/v2.1.2/sweetalert.min.js"></script>
+  <script src="https://js.cybozu.com/axios/v0.19.2/axios.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="header-contents">
+    <div class="top">
+      <div class="logo cursor">☁ kintone </div>
+    </div>
+    <div class="menu">
+      <div class="icon">
+        <i class="fas fa-bars cursor"></i>
+        <i class="fas fa-home cursor"></i>
+        <i class="fas fa-bell cursor"></i>
+        <i class="fas fa-star cursor"></i>
+      </div>
+    </div>
+    <div class="image">
+      <div class="title">BBQuestion</div>
+    </div>
+  </div>
+  <div class="main-contents">
+    <div class="widget">
+      <h1>kintone 知ってる？</h1>
+      <hr>
+      <table class="buttons">
+        <tr>
+          <td><button class="cursor" value="0" onclick="postData(this.value)">①使ったことある</button></td>
+          <td><button class="cursor" value="1" onclick="postData(this.value)">②何ができるか知ってる</button></td>
+        </tr>
+        <tr>
+          <td><button class="cursor" value="2" onclick="postData(this.value)">③聞いたことならある</button></td>
+          <td><button class="cursor" value="3" onclick="postData(this.value)">④初耳</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
